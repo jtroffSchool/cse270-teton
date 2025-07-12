@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chamber of Commerce Demonstration Site for WDD 230 - Winter 2023 - BYU-Idaho" />
+  <title>Teton Idaho CoC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/medium.css" />
+  <link rel="stylesheet" href="./styles/large.css" />
+  <script src="./config/config.js" defer></script>
+  <script src="./scripts/header-footer.js" defer></script>
+  <script src="./scripts/directory.js" defer></script>
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <div class="header-top">
+        <div class="header-logo">
+          <a href="index.html"><img src="./images/teton-logo-150.webp" /></a>
+        </div>
+        <div class="header-title">
+          <h1>Teton Idaho</h1>
+          <h2>Chamber of Commerce</h2>
+        </div>
+        <div class="header-icons">
+          <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram-40.png" /></a>
+          <a href="https://www.pinterest.com" target="_blank"><img src="./images/pinterest-40.png" /></a>
+        </div>
+      </div>
+      <nav>
+        <button id="hamburger-menu">
+          <span id="hamburger-x"><img src="./images/hamburger-close.png"></span>
+          <span id="hamburger-equiv"><img src="./images/hamburger.png"></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+        </ul>
+      </nav>
+      <div class="header-today">
+        <p></p>
+      </div>
+    </header>
+    <main class="directory-main">
+      <h2>Teton Idaho Chamber of Commerce Members</h2>
+      <div id='directory-selector'>
+        <button id="directory-grid" class="active">GRID</button>
+        <button id="directory-list">LIST</button>
+      </div>
+      <div id="directory-data" class="directory-cards">
+        <section>
+          <img src="./images/directory-teton-elementary.jpg">
+          <p>Teton Elementary</p>
+          <p>126 Main Street</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-post-office.jpg">
+          <p>Teton Post Office</p>
+          <p>8 East Main Street</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-teton-ward.jpg">
+          <p>Teton 1st and 2nd Ward</p>
+          <p>44 East Main Street</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section class="gold-member">
+          <img src="./images/directory-ancient-grains.jpg">
+          <p>Ancient Grains</p>
+          <p>303 East 1st North</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-haunted-mill.jpg">
+          <p>The Haunted Mill</p>
+          <p>95 Teton Hwy</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-pumpk-n-patch.jpg">
+          <p>Pumk-n-patch</p>
+          <p>260 East 1st South</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-tacos-gonzalez.jpg">
+          <p>Taco Gonzalez</p>
+          <p>19 North Center Street</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section>
+          <img src="./images/directory-shogun-crafts.jpg">
+          <p>Shogun Crafts</p>
+          <p>3 West Main Street</p>
+          <p>Teton, ID 83451</p>
+          <p><a href="#">Website</a></p>
+        </section>
+        <section class="gold-member">
+          <img src="./images/directory-teton-turf.jpg">
+          <p>Teton Turf and Tree</p>
+          <p>4735 East Hwy 33</p>
+          <p>Sugar City, ID 83448</p>
+          <p><a href="#">Website</a></p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/teton-logo-150.webp" alt="Teton Idaho Chamber of Commerce Logo">
+        </div>
+        <div class="footer-contact">
+          <h3>Teton Idaho Chamber of Commerce</h3>
+          <p>123 Main Street<br>Teton, ID 83451</p>
+          <p><a href="mailto:notavalidaddress@nowhere.email">info@tetonchamber.org</a></p>
+          <p>208-458-4444</p>
+        </div>
+        <div class="footer-map">
+          <p><a href="https://maps.app.goo.gl/qLA7Sjpp6FN63ULG9" target="_blank"><img src="./images/google-maps.png"></a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
